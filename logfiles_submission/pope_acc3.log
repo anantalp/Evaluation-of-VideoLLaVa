@@ -1,0 +1,40 @@
+
+------------------------------- /appmodules/Core -------------------------------
+   cuda/cuda-11.6
+
+Use "module spider" to find all possible modules and extensions.
+Use "module keyword key1 key2 ..." to search for all possible modules matching
+any of the "keys".
+
+
+This is pope original.
+Category: adversarial, # samples: 3000
+TP	FP	TN	FN	
+1151	236	1264	349
+Accuracy: 0.805
+Precision: 0.8298485940879596
+Recall: 0.7673333333333333
+F1 score: 0.7973675095254589
+Yes ratio: 0.4623333333333333
+0.797, 0.805, 0.830, 0.767, 0.462
+====================================
+Category: random, # samples: 2910
+TP	FP	TN	FN	
+1161	78	1332	339
+Accuracy: 0.856701030927835
+Precision: 0.937046004842615
+Recall: 0.774
+F1 score: 0.8477546549835707
+Yes ratio: 0.42577319587628865
+0.848, 0.857, 0.937, 0.774, 0.426
+====================================
+Category: popular, # samples: 3000
+TP	FP	TN	FN	
+1153	121	1379	347
+Accuracy: 0.844
+Precision: 0.9050235478806907
+Recall: 0.7686666666666667
+F1 score: 0.8312905551550109
+Yes ratio: 0.4246666666666667
+0.831, 0.844, 0.905, 0.769, 0.425
+====================================
